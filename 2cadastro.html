@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>cadastro</title>
+    <style>
+        #button{
+            background-color: rgb(9, 87, 107);
+            color: white;
+            border-radius:12px;
+            padding: 10px;
+            border:none;
+            cursor:pointer;
+            font-size: 13px;
+            outline:none;
+            width: 100%;
+        }
+        #button:hover{
+            background-color: royalblue;
+        }
+        body{
+            background: linear-gradient(to bottom, #000066 0%, #ccffcc 100%);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            
+        }
+        input{
+            background-color: white;
+            padding: 10px;
+            border-radius: 30px;
+            border: none;
+            outline: none;
+            
+        }
+        #Cadastro{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: rgba(0, 0, 0, 0.3);
+            border-radius: 15px;
+            border: none;
+            padding: 35px;
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <form action="1login.html">
+    <div id="Cadastro">
+        <h1 id="titulo">Cadastro</h1>
+        <label for="Nome">Nome:</label>
+        <input type="text" id="Nome completo"  placeholder="Seu Nome Completo">
+        <br>
+        <p>Selecione seu sexo:</p>
+        <input type="radio" id="Feminino" name="Feminino" value="Feminino">
+        <label for="Feminino">Feminino</label><br>
+        <input type="radio" id="Masculino" name="Masculino" value="Masculino">
+        <label for="Masculino">Masculino</label><br>
+        <input type="radio" id="Prefiro_não_me_identificar" name="sem identificação" value="Prefiro não me identificar">
+        <label for="Prefiro não me identificar">Prefiro não me identificar</label>        
+        <br><br>
+        <label for="país">País de residência:</label>
+        <select id="país" name="país">
+            <option value="Selecione">Selecione</option>
+            <option value="Afeganistão">Afeganistão</option>
+            <option value="Africa do Sul">Africa so Sul</option>
+            <option value="Alemanha">Alemanha</option>
+            <option value="Angola">Angola</option>
+            <option value="Arabia Saudita">Arabia Saudita</option>
+            <option value="Argentina">Argentina</option>
+            <option value="Australia">Australia</option>
+            <option value="Barbados">Barbados</option>
+            <option value="Belgica">Belgica</option>
+            <option value="Bolivia">Bolivia</option>
+            <option value="Brasil">Brasil</option>
+            <option value="Bulgaria">Bulgaria</option>
+            <option value="Camararões">Camarões</option>
+            <option value="">Canada</option>
+            <option value="Catar">Catar</option>
+            <option value="Cazaquistão">Cazaquistão</option>
+            <option value="Chile">Chile</option>
+            <option value="China">China</option>
+            <option value="Colombia">Colombia</option>
+            <option value="Coreia do Norte">Coreia do Norte</option>
+            <option value="Coreia do Sul">Coreia do Sul</option>
+            <option value="Costa Rica">Costa Rica</option>
+            <option value="Cuba">Cuba</option>
+            <option value="Dinamarca">Dinamarca</option>
+            <option value="Egito">Egito</option>
+            <option value="Equador">Equador</option>
+            <option value="Eslovaquia">Eslovaquia</option>
+            <option value="Espanha">Espanha</option>
+            <option value="usa">Estados Unidos</option>
+            <option value="Filipinas">Filipinas</option>
+            <option value="França">França</option>
+            <option value="Gambia">Gambia</option>
+            <option value="Gana">Gana</option>
+            <option value="Granada">Granada</option>
+            <option value="Grécia">Grécia</option>
+            <option value="Guatemala">Guatemala</option>
+            <option value="Honduras">Honduras</option>
+            <option value="India">India</option>
+            <option value="Iraque">Iraque</option>
+            <option value="Irlanda">Irlanda</option>
+            <option value="Italia">Italia</option>
+            <option value="Jamaíca">Jamaíca</option>
+            <option value="Japão">Japão</option>
+            <option value="Letonia">Letônia</option>
+            <option value="Luxemburgo">Luxemburgo</option>
+            <option value= "Malásia">Malásia</option>
+            <Option value="Mali">Mali</Option>
+            <option value="Marrocos">Marrocos</option>
+            <option value="México">México</option>
+            <option value="Moçambique">Moçambique</option>
+            <option value="Nigeria">Nigeria</option>
+            <option value="Noruega">Noruega</option>
+            <option value="Nova Zelândia">Nova Zelândia</option>
+            <option value="Panamá">Panamá</option>
+            <option value="Paquistão">Paquistão</option>
+            <option value="Paraguai">Paraguai</option>
+            <option value="Peru">Peru</option>
+            <option value="Polônia">Polônia</option>
+            <option value="Portugal">Portugal</option>
+            <option value="Reino Unido">Reino Unido</option>
+            <option value="Rússia">Rússia</option>
+            <option value="Senegal">Senegal</option>
+            <option value="Sérvia">Sérvia</option>
+            <option value="Singapura">Singapura</option>
+            <option value="Siria">Síria</option>
+            <option value="Suécia">Suécia</option>
+            <option value="Suiça">Suiça</option>
+      <option value="Tailândia">Tailândia</option>
+      <option value="Ucrânia">Ucrânia</option>
+      <option value="Uruguaí">Uruguaí</option>
+      <option value="Venezuela">Venezuela</option>
+      <option value="Outro">Outro</option>
+      </select>
+      <br><br>
+      <label for="Cel">Celular:</label>
+      <input type=“tel” id="cel" placeholder="Seu número de celular">
+        <br><br>
+        <label for="Email">E-mail:</label>
+        <input type="text" id="E-mail"  placeholder="Seu email">
+        <br><br>
+        <label for="pass">Senha:</label>
+    <input type="password" id="pass" name="password"
+           minlength="8" required><br><br>   
+           <input type="submit" value="Cadastro Finalizado" id="button">             
+       </div>
+     </form>
+
+</body>
+</html>
